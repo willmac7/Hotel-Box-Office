@@ -1,0 +1,231 @@
+<!doctype html>
+
+<html class="no-js" lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W4C7 Examples</title>
+    <script src="https://kit.fontawesome.com/72ab815ffc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/foundation-datepicker.min.css" />
+    <link rel="stylesheet" href="css/foundation.css">
+    <link href="https://fonts.googleapis.com/css?family=Kulim+Park|Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css">
+    <script src="https://use.fontawesome.com/4b30406dcb.js"></script>
+  </head>
+
+  <body>
+
+    <header>
+      <div class="grid-x">
+        <div class="cell text-left">
+          <a href="#" class="logo"> 
+            <img src="img/HotelLogo.svg" alt="Logo"></a>
+  </div>
+</div>
+
+   <div class="grid-x">
+    <div class="cell show-for-medium">
+     <div class="cell">
+  <ul class="menu align-center" data-magellan>
+    <li><a href="#booking">Booking</a></li>
+    <li><a href="#genres">Room Genres</a></li>
+    <li><a href="#food">Intermission Station</a></li>
+  </ul>
+  </div>
+ </div>
+</header>
+
+   <section class="hero">
+
+            <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+              <div class="orbit-wrapper">
+                <div class="orbit-controls">
+                  <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
+                  <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+                </div>
+                <ul class="orbit-container">
+                  <li class="is-active orbit-slide">
+                    <figure class="orbit-figure">
+                      <figcaption class="orbit-caption">All of your favorite notorious movies just at the edge of your bed!</figcaption>
+                      <img class="007 Room" src="img/007.jpg" alt="Seven Hotel">
+                    </figure>
+                  </li>
+                  <li class="orbit-slide">
+                    <figure class="orbit-figure">
+                      <figcaption class="orbit-caption">Satisfy your theater cravings with our wide variety of snacks and entrees.</figcaption>
+                      <img class="Nachos" src="img/Nachos.jpg" alt="Mikafinland">
+                    </figure>
+                  </li>
+                  <li class="orbit-slide">
+                    <figure class="orbit-figure">
+                      <figcaption class="orbit-caption">The infamous city of Hollywood at your doorstep.</figcaption>
+               <img class="View of Hollywood" src="img/HollywoodView.jpg" alt="Kyle Murfin">    </figure>
+                  </li>
+                </ul>
+              </div>
+            </div>
+    </section>
+    
+    <section class="details" id="details" data-magellan-target="details">
+
+     <div class="grid-container">
+
+      <div class="grid-x align-middle">
+
+       <div class="cell medium-7">
+
+            <img class="Batman Room" src="img/Batman.jpg" alt="Eden Motel">
+
+          </div>
+
+          <div class="cell medium-5 content">
+
+            <h2>Vacate In Nostalgia</h2>
+
+              <p>We have reach out and worked with the best deisgners in the Hollywood area in order to create the movie memories you love and adore. Experience those same memories in person at our "Box Office" Suites!</p>
+
+            <a href="#booking" class="button">Book Your Stay</a>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="food" id="food" data-magellan-target="food">
+      <div class="grid-x align-middle">
+
+           <div class="cell medium-5 content">
+            
+            <h2>More Than Just Refreshments</h2>
+
+              <p>Come by our "Intermission Station" and expand on your taste buds with our diverse menu, allowing you to satisfy all of your munchy needs while enjoying the feature film of your choosing.</p>
+          
+            <a href="#" class="button">Our Menu</a>
+
+        </div>
+
+         <div class="cell medium-7">
+
+            <img class="Hotel Food" src="img/hotelfood.jpg" alt="Food Hotel">
+
+          </div>
+      </div>
+
+     </section>
+
+    <section class="booking" id="booking" data-magellan-target="booking">
+      <div class="grid-container">
+        <div class="grid-x">
+          <div class="cell">
+            <h1>Booking</h1>
+            <table class="table">
+      <thead>
+        <tr>
+          <th>Check In:
+            <input type="text" class="span2" value="" id="dpd1">
+          </th>
+          <th>Check Out:
+            <input type="text" class="span2" value="" id="dpd2">
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr colspan="2">
+          <td>
+            <button class="button" data-open="confirm-booking" id="dpd3">Reserve</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<div class="reveal" id="confirm-booking" data-reveal>
+      <h1>Confirmation</h1>
+      <p>Arrive <span class="date1"></span>. Depart <span class="date2"></span></p>
+      <button class="close-button" data-close aria-label="Close modal" type="button">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    
+    <div class="grid-container">
+        <div class="grid-x">
+          <div class="cell">
+    <h1>Upgrade Your Vacation</h1>
+
+    <p>The creators of Hotel Box Office are are authentic movie lovers just like you! Therefore we have put our best effort in manifesting the an-away-from home personal theater for all who visit. Enjoy your other planned activities throughout the city of Hollywood and we'll have more entertainment for you to come back to enjoy!</p>
+
+  </div>
+</div>
+</div>
+    
+    <section class="genres" id="genres" data-magellan-target="genres">
+
+      <div class="grid-container">
+
+        <div class="grid-x">
+
+          <div class="cell medium-7">
+            <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+              <div class="orbit-wrapper">
+                <div class="orbit-controls">
+                  <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
+                  <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+                </div>
+                <ul class="orbit-container">
+                  <li class="is-active orbit-slide">
+                    <figure class="orbit-figure">
+                      <img class="007 Room" src="img/StarTrek.jpg" alt="Eden Hotel">
+                    </figure>
+                  </li>
+                  <li class="orbit-slide">
+                    <figure class="orbit-figure">
+                      <img class="Batman Room" src="img/Spongebob.jpg" alt="Nickelodeon Resort Punta Cana">
+                    </figure>
+                  </li>
+                  <li class="orbit-slide">
+                    <figure class="orbit-figure">
+                      <img class="Wizard Of Oz Room" src="img/WizardOfOz.jpg" alt="Eden Motel">
+                    </figure>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="cell medium-5 content">
+            <h2>Genres</h2>
+
+            <p>Everytime you visit you'll be welcomed with a new experience based on our 5 selectable floors, ranging from genres such as Comedy, Action, Science Fiction and more!</p>
+
+            <a href="#" class="button">Explore</a>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>Copyright &copy; 2020 Hotel Box Office</p>
+
+  <ul>
+ <li><a href="#"><i class="fab fa-facebook-square"></i> Facebook</a></li>
+ <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+ <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+</ul>
+     </footer>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/vendor/foundation-datepicker.min.js"></script>
+    <script src="js/main.js"></script>
+
+  </body>
+
+</html>
